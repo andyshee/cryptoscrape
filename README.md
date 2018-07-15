@@ -48,7 +48,7 @@ As you can see, my NLP algorithm picked up on the price dip without retrieving a
 
 ## Conclusion
 
-This project was extremely satisfying to work on once it started to give me accurate results. While my goal of predicting price changes
+This project was extremely satisfying to work on once it started to give me accurate results. I gained exposure to a variety of new topics in computer science, including SQL, tuples, NLP, data visualization, and iterators/generators. While my goal of predicting price changes
 is still underway, the fact that my algorithm can pick up on price changes without retrieving prices is deeply interesting to me, and I'm
 going to continue to work on this project (and others) to explore this phenomenon.
 

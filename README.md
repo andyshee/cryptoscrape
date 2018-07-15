@@ -29,7 +29,21 @@ this was not at all scalable. I decided to use an SQL database to store data, du
 rewrite my storage function to achieve this, but the net gain in efficiency was worth the time spent learning how to write queries and 
 storage commands.
 
+Due to the way the twitter API limits retreival, I was forced to store the raw text from tweets in a database and analyze the data all at once. While frustrating, the data produced through this process is identical to that seen when using real-time processing.
+
 ## Data processing
 
 Data was initially sent to output in command line, to give me a sense of what I was working with. 
-![image](/images/raw data.PNG)
+![raw data](https://user-images.githubusercontent.com/40841906/42737586-ea2f3a32-8843-11e8-82ff-bfc6a729cc56.PNG)
+
+I used Matplotlib, a psuedo-matlab python module, to visualize my data and compare it to real-world price trends.
+
+Here, you can see my programs output of weighted score during a price reduction
+![graph](https://user-images.githubusercontent.com/40841906/42737645-dbcc8da4-8844-11e8-97a3-32ab8d8f81a6.PNG)
+
+compared to a price graph during the same time period.
+![real graph](https://user-images.githubusercontent.com/40841906/42737658-f8b71682-8844-11e8-9e96-e7996f43a220.PNG)
+
+As you can see, my NLP algorithm picked up on the price dip without retreiving any numerical values. Neat!
+
+

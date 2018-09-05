@@ -4,11 +4,11 @@
 This project was completed over the course of 3 months, and exposed me to several new concepts and challenges along the way. 
 
 ## Requirements and Modules Used
--PRAW *python wrapper for reddit API*
+-PRAW *Python wrapper for reddit API*
 
--Tweepy *python wrapper for twitter API* 
+-Tweepy *Python wrapper for twitter API* 
 
--Matplotlib *data visualization tool with similar functionality to MATLAB*
+-Matplotlib *Data visualization tool with similar functionality to MATLAB*
 
 ## Starting off
 I started this project using PRAW, a python wrapper for Reddit's streaming API. I set the API to monitor the

@@ -4,14 +4,14 @@
 This project was completed over the course of 3 months, and exposed me to several new concepts and challenges along the way. 
 
 ## Requirements and Modules Used
--PRAW
+-PRAW *python wrapper for reddit API*
 
--Tweepy
+-Tweepy *python wrapper for twitter API* 
 
--Matplotlib
+-Matplotlib *data visualization tool with similar functionality to MATLAB*
 
 ## Starting off
-I started this project using PRAW, a python wrapped for Reddit's streaming API. I set the api to monitor the
+I started this project using PRAW, a python wrapper for Reddit's streaming API. I set the API to monitor the
 /r/cryptocurrency discussion board, and triggered text processing when any of the top 10 cryptocurrencies by market cap was mentioned.
 
 Later in the project, this method was mimicked to handle data from twitter.
@@ -19,7 +19,7 @@ Later in the project, this method was mimicked to handle data from twitter.
 ## Text Processing
 I used a very minimalist form of natural language processing for this project, found in the Tally.py file above. The body of the comment text 
 is normalized to lowercase, and parsed for a set of 'positive' and 'negative' keywords, counting each positive mention as +1 and each negative
-mention as -1. These scores are summed, returned, and added to the coins net score. A weighted score is created by compensating 
+mention as -1. Modifiers such as "don't" and "not" are accounted for. These scores are summed, returned, and added to the coins net score. A weighted score is created by compensating 
 for number of mentions; each coin is assigned a value between -1 and 1 based on this model.
 
 ## Handling Data Storage

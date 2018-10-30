@@ -7,10 +7,10 @@ def wieghtedScore(netScore,mentions): #returns weighted score of coin to account
 	weightedScore = netScore / mentions
 	return weightedScore
 	
-reddit = praw.Reddit(client_id = 'tGBcBvevbwjirw' , 
-						client_secret = 'Ax9Rxrk5NCjGoGsx2Sd00obJ1zs' ,
-						username = 'andoshey',
-						password = 'dixie2017',
+reddit = praw.Reddit(client_id = '' , 
+						client_secret = '' ,
+						username = '',
+						password = ',
 						user_agent = 'cryptoscrape') 
 
 subreddit = reddit.subreddit('cryptocurrency')
